@@ -24,7 +24,7 @@ public class Main {
     }
     static void printSquad(Map<Integer, String> squad) {
         for (Map.Entry<Integer, String> entry : squad.entrySet()) {
-            System.out.println(entry.getKey() + " - " + entry.getValue());
+            System.out.println(entry.getKey() + " -  " + entry.getValue());
         }
     }
 }
